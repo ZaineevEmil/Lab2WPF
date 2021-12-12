@@ -1,0 +1,53 @@
+﻿<Window x:Class="Lab2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2WPF"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="650" Width="500" BorderBrush="#FFCBCBCB">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="Black">
+            <Border BorderBrush="#FFF1F1F1" BorderThickness="5">
+                <Border BorderBrush="#FF535353" BorderThickness="5">
+                <TextBlock Text="1 234,567" HorizontalAlignment="Right" Padding="18" TextWrapping="Wrap"  VerticalAlignment="Top" FontSize="48" Background="Black" Foreground="#FFBFBCBC"/>
+            </Border>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="#FFF1F1F1">
+            <UniformGrid Rows="6" Columns="4" Grid.ColumnSpan="2" Background="#FFF1F1F1">
+                <Button  Content="%" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="CE" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="C" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="←" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="1/x" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="x²" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="√x" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="/" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="7" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="8" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="9" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="x" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="4" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="5" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="6" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="-" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="1" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="2" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="3" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="+" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="+/-" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="0" Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="," Background="#FFF1F1F1" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+                <Button  Content="=" Background="#FFBBBBBB" BorderBrush="#FF535353" Foreground="#FF951B1B" FontSize="36" BorderThickness="2"/>
+            </UniformGrid>
+            
+        </Grid>
+    </Grid>
+</Window>
